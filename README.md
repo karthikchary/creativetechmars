@@ -1,2 +1,3 @@
 # creativetm
-website 
+Sample website 
+install php curl mysql
