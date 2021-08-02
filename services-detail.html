@@ -16,8 +16,8 @@
 <!-- Color Themes -->
 <link id="theme-color-file" href="css/color-themes/default-theme.css" rel="stylesheet">
 
-<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
-<link rel="icon" href="images/favicon.png" type="image/x-icon">
+<link rel="shortcut icon" href="images/resource/fav.png" type="image/x-icon">
+<link rel="icon" href="images/resource/fav.png" type="image/x-icon">
 
 <!-- Responsive -->
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -52,6 +52,7 @@
 						<ul class="info-list">
 							<li><a href="mailto:info@creativetechmars.com"><span class="icon flaticon-email"></span> info@creativetechmars.com</a></li>
 							<li><a href="tel:040-48545007"><span class="icon flaticon-telephone"></span> 040-48545007</a></li>
+							<li><a href="tel:040-48545008"><span class="icon flaticon-telephone"></span> 040-48545008</a></li>
 						</ul>
 					</div>
 					
@@ -128,19 +129,20 @@
 								</li>
 								<li class="dropdown"><a href="#">Staffing</a>
 									<ul>
-										<li><a href="staffing.html">RPO</a></li>
-										<li><a href="staffing.html">IT Consulting</a></li>
-										<li><a href="staffing.html">Outsourcing</a></li>
+										<li><a href="staffing.html" onclick="this.href='staffing.html#Rpo';">RPO</a></li>
+										<li><a href="staffing.html" onclick="this.href='staffing.html#it-consulting';">IT Consulting</a></li>
+										<li><a href="staffing.html" onclick="this.href='staffing.html#outsourcing';">Outsourcing</a></li>
 									</ul>
 								</li>
 								<li class="dropdown"><a href="services.html">Services</a>
 									<ul>
-										<li><a href="services.html#devops">DevOps</a></li>
-										<li><a href="services.html#cloud">Cloud Services</a></li>
-										<li><a href="services.html#ui">Web Design</a></li>
-										<li><a href="services.html#mobile">Mobile Apps</a></li>
-										<li><a href="services.html#website">Web Development</a></li>
-										<li><a href="services.html#testing">Salesforce CRM</a></li>
+										<li><a href="services.html" onclick="this.href='services.html#devops';">DevOps</a></li>
+										<li><a href="services.html" onclick="this.href='services.html#cloud';">Cloud Services</a></li>
+										<li><a href="services.html" onclick="this.href='services.html#ui';">Web Design</a></li>
+										<li><a href="services.html" onclick="this.href='services.html#mobile';">Mobile Apps</a></li>
+										<li><a href="services.html" onclick="this.href='services.html#website';">Microsoft Dynamics CRM</a></li>
+										<li><a href="services.html" onclick="this.href='services.html#testing';">Salesforce CRM</a></li>
+										<li><a href="services.html" onclick="this.href='services.html#software_testing';">Software Testing</a></li>
 									</ul>
 								</li>
 								<!-- <li><a href="projects.html">Projects</a>
@@ -381,8 +383,9 @@
                                 <li><a href="#cloudservices"><span class="arrow fa fa-angle-double-right"></span> Cloud Services</a></li>
                                 <li><a href="#salesforce"><span class="arrow fa fa-angle-double-right"></span> Salesforce CRM</a></li>
                                 <li><a href="#webdevelopment"><span class="arrow fa fa-angle-double-right"></span> Web Development</a></li>
-                                <li><a href="#webdesign"><span class="arrow fa fa-angle-double-right"></span> Web Design</a></li>
+                                <li><a href="#webdesign"><span class="arrow fa fa-angle-double-right"></span> Microsoft Dynamics CRM</a></li>
                                 <li><a href="#mobile"><span class="arrow fa fa-angle-double-right"></span> Mobile Development</a></li>
+								<li><a href="#software_testing"><span class="arrow fa fa-angle-double-right"></span> Software Testing</a></li>
                             </ul>
                         </div>
 						
@@ -470,7 +473,7 @@
 						<div class="inner-box">
 							<h2>Salesforce CRM</h2>
 							<div class="image">
-								<img src="images/resource/salesforce.png" alt="" />
+								<img src="images/resource/salesforce.png" alt="" style="width: 160%;" />
 							</div>
 							<p>The industry has moved from the traditional on-premises CRM to cloud-based CRM to address scalability, change management, and time to market needs of businesses. For companies looking for SaaS offerings on cloud, Salesforce is an undisputed leader. Also, companies looking to build customized business applications can capitalize on Force.com as platform as a service (PaaS).</p>
 							<p>Creative Tech Mars can provide your company an end-to-end CRM solution, ensuring that you get a strategic package evaluation and roadmap, robust implementation, rollouts, production support, and best quality development.</p>
@@ -481,7 +484,6 @@
 								<li><span class="arrow fa fa-angle-double-right"></span> Platform as a service (PaaS)</li>
 								<li><span class="arrow fa fa-angle-double-right"></span> Software as a service (SaaS)</li>
 								<li><span class="arrow fa fa-angle-double-right"></span> Enterprise Integrated Services on Cloud</li>
-
 							</ul> -->
 
 						</div>
@@ -504,9 +506,7 @@
 								<li><span class="arrow fa fa-angle-double-right"></span> Platform as a service (PaaS)</li>
 								<li><span class="arrow fa fa-angle-double-right"></span> Software as a service (SaaS)</li>
 								<li><span class="arrow fa fa-angle-double-right"></span> Enterprise Integrated Services on Cloud</li>
-
 							</ul> -->
-
 						</div>
 					</div>
 					<!--End Web Development -->
@@ -515,26 +515,23 @@
 					<div class="services-detail resume" id="webdesign">
 						<div class="inner-box">
 							<h2>Web Design</h2>
-							<!-- <div class="image">
-								<img src="images/resource/web_deveopment.jpeg" alt="" />
-							</div> -->
-							<p>Web design is the creation of a new solution to a problem in the web medium. It includes graphic design, because the output will be consumed through a visual medium. But it goes further than the purely visual. It stretches to incorporate every aspect of a web experience.</p>
-							<p>For example, choosing the right text contents for a web page is part of web design. This text may be viewed on search engine results, which is part of the user experience. And the position in the rankings of that result is also part of the experience, so I would argue that search engine optimisation is part of web design also.</p>
-							<p>Designing a web experience may incorporate some or all of the following list of disciplines. Some come under graphic design, others are broader design.</p>
+							<div class="image">
+								<img src="images/resource/Microsoft-Dynamics.jpg" alt="" />
+							</div>
+							<p>Microsoft Dynamics CRM is a customer relationship management software package developed by Microsoft. The product
+							focuses mainly on sales, marketing, and service (help desk) sectors, but Microsoft has been marketing Dynamics CRM as a
+							CRM platform and has been encouraging partners to use its once proprietary, now Open Source (.NET based) framework to
+							customize it. It is part of the Microsoft Dynamics family of business applications.</p>
+							<p>Dynamics CRM is a server-client application, which, like Microsoft SharePoint, is primarily an IIS-based web application
+							which also supports extensive web services interfaces. Clients access Dynamics CRM either by using a browser or by a
+							thick client plug-in to Microsoft Outlook. Besides Internet Explorer, Chrome and Firefox browsers are fully supported
+							since Microsoft Dynamics CRM 2011 Update Rollup 12.</p>
+							<p>Product Offerings</p>
 							<ul style="padding-bottom: 10px;">
-								<li><span class="arrow fa fa-angle-double-right"></span> Logo design</li>
-								<li><span class="arrow fa fa-angle-double-right"></span> User interface design</li>
-								<li><span class="arrow fa fa-angle-double-right"></span> Copywriting</li>
-								<li><span class="arrow fa fa-angle-double-right"></span> On-site SEO</li>
-								<li><span class="arrow fa fa-angle-double-right"></span> Link-building</li>
-								<li><span class="arrow fa fa-angle-double-right"></span> Social media promotion</li>
-								<li><span class="arrow fa fa-angle-double-right"></span> Information architecture</li>
-								<li><span class="arrow fa fa-angle-double-right"></span> Navigation design</li>
-								<li><span class="arrow fa fa-angle-double-right"></span> Design for accessibility</li>
-								<li><span class="arrow fa fa-angle-double-right"></span> HTML mark-up</li>
+								<li><span class="arrow fa fa-angle-double-right"></span> CRM Online</li>
+								<li><span class="arrow fa fa-angle-double-right"></span> CRM On-Premise</li>
 							</ul>
 							<p>The bottom line is that all these skills and activities can impact the success of a web site and the experience of using that site. This shows the breadth of the web designer’s toolkit. Anyone who only offers the graphic aspects is not a web designer. They’re a graphic designer who is doing graphic design for web pages. And there’s nothing wrong with that. But do not trust a person with only graphic skills to build your web site, and it will not be anywhere near as successful as it could be.</p>
-
 						</div>
 					</div>
 					<!--End Web Development -->
@@ -549,6 +546,24 @@
 							<p>Mobile app development is the act or process by which a mobile app is developed for mobile devices, such as personal digital assistants, enterprise digital assistants or mobile phones. These applications can be pre-installed on phones during manufacturing platforms, or delivered as web applications using server-side or client-side processing (e.g., JavaScript) to provide an "application-like" experience within a Web browser. Application software developers also must consider a long array of screen sizes, hardware specifications, and configurations because of intense competition in mobile software and changes within each of the platforms. Mobile app development has been steadily growing, in revenues and jobs created. A 2013 analyst report estimates there are 529,000 direct app economy jobs within the EU 28 members, 60% of which are mobile app developers.</p>
 							<p>As part of the development process, mobile user interface (UI) design is also essential in the creation of mobile apps. Mobile UI considers constraints, contexts, screen, input, and mobility as outlines for design. The user is often the focus of interaction with their device, and the interface entails components of both hardware and software. User input allows for the users to manipulate a system, and device's output allows the system to indicate the effects of the users' manipulation. Mobile UI design constraints include limited attention and form factors, such as a mobile device's screen size for a user's hand(s). Mobile UI contexts signal cues from user activity, such as location and scheduling that can be shown from user interactions within a mobile app. Overall, mobile UI design's goal is mainly for an understandable, user-friendly interface. The UI of mobile apps should: consider users' limited attention, minimize keystrokes, and be task-oriented with a minimum set of functions. This functionality is supported by mobile enterprise application platforms or integrated development environments (IDEs).</p>
 							<p>Mobile UIs, or front-ends, rely on mobile back-ends to support access to enterprise systems. The mobile back-end facilitates data routing, security, authentication, authorization, working off-line, and service orchestration. This functionality is supported by a mix of middleware components including mobile app server, mobile backend as a service (MBaaS), and service-oriented architecture (SOA) infrastructure.</p>
+						</div>
+					</div>
+					<!--End Web Development -->
+					<!-- Web Development Services -->
+					<div class="services-detail resume" id="software_testing">
+						<div class="inner-box">
+							<h2>Software Testing</h2>
+							<div class="image">
+								<img src="images/resource/Software-Testing.jpeg" alt="" />
+							</div>
+							<p>Software testing is an investigation conducted to provide stakeholders with information about the quality of the
+							software product or service under test.</p>
+							<p>Software testing can also provide an objective, independent view of the software to allow the business to appreciate and
+							understand the risks of software implementation. Test techniques include the process of executing a program or
+							application with the intent of finding software bugs (errors or other defects), and verifying that the software product
+							is fit for use.</p>
+							<p>Software testing involves the execution of a software component or system component to evaluate one or more properties
+							of interest. In general, these properties indicate the extent to which the component or system under test.</p>
 						</div>
 					</div>
 					<!--End Web Development -->
@@ -641,13 +656,12 @@
 							<h5>Quick Links</h5>
 							<ul class="list-link">
 								<ul class="list-link">
-									<li><a href="staffing.html">Managed IT services</a></li>
-									<li><a href="services.html#cloud">Cloud Services</a></li>
-									<li><a href="services.html#testing">Salesforce CRM</a></li>
-									<li><a href="services.html#ui">Web Development</a></li>
-									<li><a href="services.html#ui">Web Design</a></li>
-									<li><a href="services.html#mobile">Mobile Apps</a></li>
-									<li><a href="staffing.html">Outsourcing</a></li>
+									<li><a href="staffing.html" onclick="this.href='staffing.html#Rpo';">Managed IT services</a></li>
+									<li><a href="services.html" onclick="this.href='services.html#cloud';">Cloud Services</a></li>
+									<li><a href="services.html" onclick="this.href='services.html#testing';">Salesforce CRM</a></li>
+									<li><a href="services.html" onclick="this.href='services.html#ui';">Web Development</a></li>
+									<li><a href="services.html" onclick="this.href='services.html#mobile';">Mobile Apps</a></li>
+									<li><a href="staffing.html" onclick="this.href='staffing.html#Rpo';">Outsourcing</a></li>
 								</ul>
 							</ul>
 						</div>
